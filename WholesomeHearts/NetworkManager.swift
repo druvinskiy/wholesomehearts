@@ -10,7 +10,7 @@ import UIKit
 final class NetworkManager {
     static let shared = NetworkManager()
     static let baseURL = "https://wholesomehearts.co/wp-json/wp/v2/"
-    private let postURL = baseURL + "posts"
+    private let postURL = baseURL + "apps"
     
     private init() {}
     
